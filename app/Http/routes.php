@@ -24,7 +24,7 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+//Route::get('/', 'HomeController@index');
 
 Route::get('/verify/{id}', 'HomeController@verify');
 
