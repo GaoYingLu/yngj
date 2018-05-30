@@ -19,6 +19,15 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function verify($id)
+    {
+        if ($id == 'bCDBt8MCU2dhLIgct6vFJHDjGn0bOso0') {
+
+            return view('verify');
+        }
+
+    }
+
 
     /**
      * @param Request $request

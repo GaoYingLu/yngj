@@ -26,6 +26,7 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::get('/verify/{id}', 'HomeController@verify');
 
 
 Route::group(['middleware' => ['web'], 'namespace' => 'Admin', 'prefix' => 'admin'], function () {
